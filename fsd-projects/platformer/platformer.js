@@ -27,24 +27,49 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     
 
 
     // TODO 2 - Create Platforms
+createPlatform(100, 610, 100, 20, "black");
 
+createPlatform(500, 610, 100, 20, "black");
 
+createPlatform(300, 475, 100, 20, "white");
 
+createPlatform(800, 475, 100, 20, "white");
+
+createPlatform(1000, 375, 100, 20, "black");
+
+createPlatform(1300, 250, 100, 20, "white");
 
     // TODO 3 - Create Collectables
+createCollectable("fazcoin", 150, 170, 0.5, 0.7);
 
+createCollectable("fazcoin", 350, 170, 0.5, 0.7);
 
+createCollectable("fazcoin", 550, 170, 0.5, 0.7);
+
+createCollectable("fazcoin", 850, 170, 0.5, 0.7);
+
+createCollectable("fazcoin", 1050, 170, 0.5, 0.7);
+
+createCollectable("fazcoin", 1200, 170, 0.5, 0.7);
+
+createCollectable("fazcoin", 1300, 170, 0.5, 0.7);
 
     
     // TODO 4 - Create Cannons
+createCannon("bottom", 200, 1000);
+
+    createCannon("bottom", 400, 1250);
+createCannon("right", 500, 3000);
+
+    createCannon("right", 700, 2000);
+    createCannon("right", 750, 2500);
+        createCannon("left", 200, 2500);
 
 
-    
-    
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
